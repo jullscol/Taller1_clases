@@ -31,7 +31,7 @@ public class Motorcycle {
 	 /**
    	 * El cilindraje de la moto 
    	 */
-	int cilindraje;
+	int cylinder;
 	
 	/*Metodos*/
 	
@@ -96,15 +96,15 @@ public class Motorcycle {
 	 * Devuelve El cilindraje de la moto 
 	 * @return El cilindraje de la moto 
 	 */
-	public int getCilindraje() {
-		return cilindraje;
+	public int getCylinder() {
+		return cylinder;
 	}
 	/**
 	 * Modifica El cilindraje de la moto 
-	 * @param cilindraje
+	 * @param cylinder
 	 */
-	public void setCilindraje(int cilindraje) {
-		this.cilindraje = cilindraje;
+	public void setCylinder(int cylinder ) {
+		this.cylinder = cylinder;
 	}
 	
 	
